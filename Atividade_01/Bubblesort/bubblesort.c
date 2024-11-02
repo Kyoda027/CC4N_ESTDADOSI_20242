@@ -2,11 +2,13 @@
 #include <stdio.h>
 #define R 50
 
-void printArray(int arr[],int tamanho){
-  for (int i = 0; i < tamanho; i++) {
-    printf("%d ",arr[i]);
-  }
-  print("\n")
+void printArray(int arr[], int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
 void bubbleSort(int arr[], int tamanho) {
     for (int i = 0; i < tamanho - 1; i++) {
         for (int j = 0; j < tamanho - i - 1; j++) {
