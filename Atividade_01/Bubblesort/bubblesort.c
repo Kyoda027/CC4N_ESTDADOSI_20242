@@ -1,6 +1,6 @@
 //Aluno: Estevão
 #include <stdio.h>
-#Define R 50
+#define R 50
 
 Void printArray(int arr[],int tamanho){
   for (int i = 0; i < tamanho; i++ {
