@@ -3,7 +3,7 @@
 #define R 50
 
 void printArray(int arr[],int tamanho){
-  for (int i = 0; i < tamanho; i++ {
+  for (int i = 0; i < tamanho; i++) {
     printf("%d ",arr[i]);
   }
   print("\n")
