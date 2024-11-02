@@ -27,7 +27,8 @@ int main() {
                      66, 28, 15, 3, 97, 54, 36, 27, 19, 41,
                      64, 31, 26, 5, 43, 99, 75, 50, 6, 84,
                      72, 16, 21, 33, 53, 18, 38, 24, 11, 77};
-
+    
+    bubbleSort(arr, R);
     printf("Array ordenado:\n");
     printArray(arr, R);
 
